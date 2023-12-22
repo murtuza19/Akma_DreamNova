@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!--  -->
+    <title>Akma - Home</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="primary-navigation">
+                <a href="#"><img src="img/logo.svg" alt="Akma" class="akma-logo"></a>
+                <div class="nav-list" id="nav-list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button class="button" onclick="window.location.href='https://forms.gle/NyZL6WJMVZtgxexe7'">Get Started</button>
+                </div>
+                <!-- implementing nav-toggle -->
+
+                <div class="toggle">
+                    <input hidden="" class="menu-toggle" id="menu-toggle" name="menu-toggle" type="checkbox">
+                    <label class="hamburger-menu" id="hamburger-menu" for="menu-toggle">
+                        <div class="bar bar--1"></div>
+                        <div class="bar bar--2"></div>
+                        <div class="bar bar--3"></div>
+                    </label>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="even-column">
+                    <div class="reverse primary-cover">
+                        <h1>Akma<span>.</span></h1>
+                        <p>We provide <span>creative</span> and <span>innovative</span> solutions to our clients.🔥</p>
+                        <div class="btn-container">
+                            <button class="primary-button" onclick="window.location.href='https://forms.gle/NyZL6WJMVZtgxexe7'">Get Started</button>
+                            <button class="primary-button white-btn" onclick="window.location.href='https://drive.google.com/file/d/1B0_-exB0xuyF_D9Wc8eh1ntiQpxi56Hc/view?usp=sharing'">Brochure</button>
+                        </div>
+                    </div>
+                    <div class="canvas-container">
+                        <img src="img/canvas-temp.png" alt="canvas3d" class="canvas-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mouse-container">
+            <div class="mouse">
+                <img src="img/mouse.svg" alt="scroll down">
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="container">
+                <div class="even-column">
+                    <div class="image-container">
+                        <img src="img/think.png" alt="Thinking! What is Akma?" class="image">
+                    </div>
+                    <div class="about-text">
+                        <h2><span>What</span> is Akma?</h2>
+                        <p>Akma is a dynamic and innovative graphic designing startup focused on providing exceptional
+                            graphic design solutions for businesses and individuals alike. We are dedicated to helping
+                            our clients bring their visions to life through visually captivating and compelling designs.
+                            With our expertise and creativity, we aim to empower businesses by enhancing their brand
+                            identities and making a lasting impact in the competitive market.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technologies">
+            <div class="container">
+                <div class="text-container">
+                    <h2>Technologies<span>.</span></h2>
+                    <p>Technologies are not a barrier for us. Our team members are well versed and experienced with all
+                        latest technologies. Adobe Photoshop, Adobe Lightroom, Adobe After Effects, Adobe Illustrator,
+                        Adobe Premiere Pro, DaVinci Resolve, Blender, Figma.</p>
+                </div>
+                <div class="animation-container">
+                    <div class="animation-strip">
+                        <img src="img/tech-logos.png" alt="technologies we use (logos)">
+                        <img src="img/tech-logos.png" alt="technologies we use (logos)">
+                        <img src="img/tech-logos.png" alt="technologies we use (logos)">
+                        <img src="img/tech-logos.png" alt="technologies we use (logos)">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="container">
+                <div class="text-container">
+                    <h2><span>Core</span>Team</h2>
+                    <p>Our core team comprises talented individuals who bring diverse expertise and a shared passion for
+                        delivering exceptional results.</p>
+                </div>
+                <div class="demo-profile">
+                    <a href="https://arinbagul.tech/" target="_blank">
+                        <img src="img/Murtuza-Profile.png" alt="">
+                    </a>
+                </div>
+                <!-- <div class="carousel-container">
+                    <div class="card">
+                        <div class="card-bg">
+                            <img src="img/team-bg-blured.jpg" alt="">
+                        </div>
+                        <div class="profile">
+                            <div class="profile-pic">
+                                <img src="img/propic.png" width="210px" alt="Arin Bagul">
+                            </div>
+                            <div class="profile-info">
+                                <h3>Arin Bagul</h3>
+                                <p>Hey!👋 I’m a Front-End Developer and Designer.</p>
+                                <div class="social-logos">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            viewBox="0 0 25 25" fill="none">
+                                            <path
+                                                d="M8.12516 2.08337H16.8752C20.2085 2.08337 22.9168 4.79171 22.9168 8.12504V16.875C22.9168 18.4774 22.2803 20.0141 21.1473 21.1471C20.0142 22.2802 18.4775 22.9167 16.8752 22.9167H8.12516C4.79183 22.9167 2.0835 20.2084 2.0835 16.875V8.12504C2.0835 6.52269 2.72003 4.98597 3.85306 3.85294C4.98609 2.71991 6.52281 2.08337 8.12516 2.08337ZM7.91683 4.16671C6.92227 4.16671 5.96844 4.5618 5.26518 5.26506C4.56192 5.96832 4.16683 6.92215 4.16683 7.91671V17.0834C4.16683 19.1563 5.84391 20.8334 7.91683 20.8334H17.0835C18.0781 20.8334 19.0319 20.4383 19.7351 19.735C20.4384 19.0318 20.8335 18.0779 20.8335 17.0834V7.91671C20.8335 5.84379 19.1564 4.16671 17.0835 4.16671H7.91683ZM17.9689 5.72921C18.3142 5.72921 18.6454 5.86639 18.8896 6.11058C19.1338 6.35477 19.271 6.68596 19.271 7.03129C19.271 7.37663 19.1338 7.70782 18.8896 7.952C18.6454 8.19619 18.3142 8.33337 17.9689 8.33337C17.6236 8.33337 17.2924 8.19619 17.0482 7.952C16.804 7.70782 16.6668 7.37663 16.6668 7.03129C16.6668 6.68596 16.804 6.35477 17.0482 6.11058C17.2924 5.86639 17.6236 5.72921 17.9689 5.72921ZM12.5002 7.29171C13.8815 7.29171 15.2063 7.84044 16.183 8.81719C17.1598 9.79395 17.7085 11.1187 17.7085 12.5C17.7085 13.8814 17.1598 15.2061 16.183 16.1829C15.2063 17.1596 13.8815 17.7084 12.5002 17.7084C11.1188 17.7084 9.79407 17.1596 8.81732 16.1829C7.84056 15.2061 7.29183 13.8814 7.29183 12.5C7.29183 11.1187 7.84056 9.79395 8.81732 8.81719C9.79407 7.84044 11.1188 7.29171 12.5002 7.29171ZM12.5002 9.37504C11.6714 9.37504 10.8765 9.70428 10.2905 10.2903C9.7044 10.8764 9.37516 11.6712 9.37516 12.5C9.37516 13.3288 9.7044 14.1237 10.2905 14.7098C10.8765 15.2958 11.6714 15.625 12.5002 15.625C13.329 15.625 14.1238 15.2958 14.7099 14.7098C15.2959 14.1237 15.6252 13.3288 15.6252 12.5C15.6252 11.6712 15.2959 10.8764 14.7099 10.2903C14.1238 9.70428 13.329 9.37504 12.5002 9.37504Z"
+                                                fill="#EDF2F4" />
+                                        </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            viewBox="0 0 25 25" fill="none">
+                                            <path
+                                                d="M19.7917 3.125C20.3442 3.125 20.8741 3.34449 21.2648 3.73519C21.6555 4.12589 21.875 4.6558 21.875 5.20833V19.7917C21.875 20.3442 21.6555 20.8741 21.2648 21.2648C20.8741 21.6555 20.3442 21.875 19.7917 21.875H5.20833C4.6558 21.875 4.12589 21.6555 3.73519 21.2648C3.34449 20.8741 3.125 20.3442 3.125 19.7917V5.20833C3.125 4.6558 3.34449 4.12589 3.73519 3.73519C4.12589 3.34449 4.6558 3.125 5.20833 3.125H19.7917ZM19.2708 19.2708V13.75C19.2708 12.8494 18.9131 11.9856 18.2762 11.3488C17.6394 10.7119 16.7756 10.3542 15.875 10.3542C14.9896 10.3542 13.9583 10.8958 13.4583 11.7083V10.5521H10.5521V19.2708H13.4583V14.1354C13.4583 13.3333 14.1042 12.6771 14.9062 12.6771C15.293 12.6771 15.664 12.8307 15.9374 13.1042C16.2109 13.3777 16.3646 13.7486 16.3646 14.1354V19.2708H19.2708ZM7.16667 8.91667C7.6308 8.91667 8.07591 8.73229 8.4041 8.4041C8.73229 8.07591 8.91667 7.6308 8.91667 7.16667C8.91667 6.19792 8.13542 5.40625 7.16667 5.40625C6.69978 5.40625 6.25201 5.59172 5.92186 5.92186C5.59172 6.25201 5.40625 6.69978 5.40625 7.16667C5.40625 8.13542 6.19792 8.91667 7.16667 8.91667ZM8.61458 19.2708V10.5521H5.72917V19.2708H8.61458Z"
+                                                fill="#EDF2F4" />
+                                        </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            viewBox="0 0 25 25" fill="none">
+                                            <path
+                                                d="M23.3957 6.24996C22.5936 6.61454 21.729 6.85413 20.8332 6.96871C21.7498 6.41663 22.4582 5.54163 22.7915 4.48954C21.9269 5.01038 20.9686 5.37496 19.9582 5.58329C19.1352 4.68746 17.979 4.16663 16.6665 4.16663C14.2186 4.16663 12.2186 6.16663 12.2186 8.63538C12.2186 8.98954 12.2602 9.33329 12.3332 9.65621C8.62483 9.46871 5.32275 7.68746 3.12484 4.98954C2.73942 5.64579 2.52067 6.41663 2.52067 7.22913C2.52067 8.78121 3.30192 10.1562 4.51025 10.9375C3.77067 10.9375 3.08317 10.7291 2.479 10.4166V10.4479C2.479 12.6145 4.02067 14.427 6.06234 14.8333C5.40684 15.0127 4.71868 15.0376 4.05192 14.9062C4.33484 15.7942 4.88894 16.5712 5.63631 17.128C6.38369 17.6848 7.28676 17.9934 8.21858 18.0104C6.63903 19.2608 4.68108 19.9367 2.6665 19.927C2.31234 19.927 1.95817 19.9062 1.604 19.8645C3.58317 21.1354 5.93734 21.875 8.45817 21.875C16.6665 21.875 21.1769 15.0625 21.1769 9.15621C21.1769 8.95829 21.1769 8.77079 21.1665 8.57288C22.0415 7.94788 22.7915 7.15621 23.3957 6.24996Z"
+                                                fill="#EDF2F4" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="contact-text">
+                    <p><span>Contact us</span> through our email <a
+                            href="mailto:akma.india@gmail.com">akma.india@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <p>© Akma 2023 - All copyrights reserved</p>
+            </div>
+            <div class="credits">
+                <p>Designed & Created by <span>Md. Murtuza</span></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="src/script.js"></script>
+
+</body>
+
+</html>
